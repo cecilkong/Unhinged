@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class MouseInput : MonoBehaviour
 {
+    GameObject hoveringOver;
     [SerializeField] Camera mainCam;
     public bool canInput = true;
     void Update()
@@ -12,9 +13,10 @@ public class MouseInput : MonoBehaviour
         Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         RaycastHit2D hit = Physics2D.Raycast(mousePos, Vector2.zero);
         if (hit.collider != null){
+            hoveringOver = hit.transform.gameObject;
             if (hit.collider.GetComponent<IEventObject>().GetInteractable())
             {
-                //show interactable outline
+                hit.transform.GetComponent<CreateOutline>().displayInteractable();
                 if (Input.GetMouseButtonDown(0))
                 {
                     hit.collider.GetComponent<IEventObject>().Interact();
@@ -22,7 +24,14 @@ public class MouseInput : MonoBehaviour
             }
             else
             {
-                //show non-interact thing
+                hit.transform.GetComponent<CreateOutline>().displayuninteractable();
+            }
+        }
+        else
+        {
+            if(hoveringOver != null)
+            {
+                hoveringOver.GetComponent<CreateOutline>().setInactive();
             }
         }
     }
