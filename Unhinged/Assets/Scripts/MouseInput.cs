@@ -24,7 +24,7 @@ public class MouseInput : MonoBehaviour
             }
             else
             {
-                hit.transform.GetComponent<CreateOutline>().displayuninteractable();
+                if(hoveringOver.GetComponent<CreateOutline>()) hit.transform.GetComponent<CreateOutline>().displayuninteractable();
             }
         }
         else

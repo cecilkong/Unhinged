@@ -27,8 +27,8 @@ public class CreateOutline : MonoBehaviour
         outline.AddComponent<SpriteRenderer>().sprite = square;
         outline.GetComponent<SpriteRenderer>().maskInteraction = SpriteMaskInteraction.VisibleInsideMask;
         outline.transform.localPosition = Vector3.zero;
-        outline.GetComponent<SpriteRenderer>().sortingOrder -= 1;
-        outline.transform.localScale *= 50;
+        outline.GetComponent<SpriteRenderer>().sortingOrder = GetComponent<SpriteRenderer>().sortingOrder - 1;
+        outline.transform.localScale *= 3;
         outline.SetActive(false);
     }
 
