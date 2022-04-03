@@ -3908,6 +3908,10 @@ PrefabInstance:
       value: 1-OpenOven
       objectReference: {fileID: 0}
     - target: {fileID: 7029904451097674615, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
+      propertyPath: dialogue
+      value: What should I make today?
+      objectReference: {fileID: 0}
+    - target: {fileID: 7029904451097674615, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
       propertyPath: nextEvent
       value: 
       objectReference: {fileID: 308622061}
