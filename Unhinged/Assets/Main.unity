@@ -213,6 +213,11 @@ PrefabInstance:
     m_TransformParent: {fileID: 1015733071}
     m_Modifications:
     - target: {fileID: 97252025916986112, guid: 60c73ad53d4a49c499e09db7a8a0de36, type: 3}
+      propertyPath: dialogue
+      value: "Darn, it\u2019s a wizard snail. They love salt! He won\u2019t go to
+        sleep until he gets all his energy out. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 97252025916986112, guid: 60c73ad53d4a49c499e09db7a8a0de36, type: 3}
       propertyPath: nextEvent
       value: 
       objectReference: {fileID: 418807541}
@@ -422,7 +427,9 @@ MonoBehaviour:
   nextEvent: {fileID: 859578893}
   alteredSprite: {fileID: 21300000, guid: d79952116fa284890a31232c9ca75746, type: 3}
   textObject: {fileID: 682737922}
-  dialogue: hh
+  dialogue: "Fido, my favorite fire-breathing sheep! He only answers to the name
+    of whatever sheepdog he\u2019s last set ablaze. I hope there\u2019s something
+    left in the freezer..."
   objToSetActive: {fileID: 0}
   otherSprite: {fileID: 21300000, guid: 55c3c4a8ae233412f8b93e700cd94683, type: 3}
   otherObj: {fileID: 861476710}
@@ -644,6 +651,10 @@ PrefabInstance:
       value: 1-GrabSalt
       objectReference: {fileID: 0}
     - target: {fileID: 7029904451097674615, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
+      propertyPath: dialogue
+      value: 'Ew, a snail. I know how to get rid of this guy. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 7029904451097674615, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
       propertyPath: nextEvent
       value: 
       objectReference: {fileID: 44346176}
@@ -802,6 +813,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1535775390}
     m_Modifications:
+    - target: {fileID: 97252025916986112, guid: 60c73ad53d4a49c499e09db7a8a0de36, type: 3}
+      propertyPath: dialogue
+      value: "Eyeliner from my twenty-one pilots phase. I should try some on for
+        nostalgia\u2019s sake. I\u2019m slaying too hard. The mirror can\u2019t handle
+        this!"
+      objectReference: {fileID: 0}
     - target: {fileID: 97252025916986112, guid: 60c73ad53d4a49c499e09db7a8a0de36, type: 3}
       propertyPath: otherObj
       value: 
@@ -990,6 +1007,11 @@ PrefabInstance:
     - target: {fileID: 7029904451097674614, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
       propertyPath: m_Name
       value: 4-TalkRobot
+      objectReference: {fileID: 0}
+    - target: {fileID: 7029904451097674615, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
+      propertyPath: dialogue
+      value: "Yikes, I need to bottle up these gold sparks. Insurance won\u2019t
+        cover another house fire. "
       objectReference: {fileID: 0}
     - target: {fileID: 7029904451097674615, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
       propertyPath: nextEvent
@@ -2022,6 +2044,11 @@ PrefabInstance:
       value: 2-OpenCabinet
       objectReference: {fileID: 0}
     - target: {fileID: 7029904451097674615, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
+      propertyPath: dialogue
+      value: "Thank gosh, I can finally open my drawer. I\u2019ve been yelling open
+        sesame at it but magic just doesn\u2019t work like it used to."
+      objectReference: {fileID: 0}
+    - target: {fileID: 7029904451097674615, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
       propertyPath: nextEvent
       value: 
       objectReference: {fileID: 151903374}
@@ -2145,6 +2172,11 @@ PrefabInstance:
     - target: {fileID: 7029904451097674614, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
       propertyPath: m_Name
       value: 2-FillBowl
+      objectReference: {fileID: 0}
+    - target: {fileID: 7029904451097674615, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
+      propertyPath: dialogue
+      value: "If you fill it, he will come. He being the cat. And it being the bowl
+        with milk. I\u2019ve never watched Field of Dreams. "
       objectReference: {fileID: 0}
     - target: {fileID: 7029904451097674615, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
       propertyPath: otherObj
@@ -2606,7 +2638,7 @@ MonoBehaviour:
   interactable: 0
   nextEvent: {fileID: 2070928192}
   textObject: {fileID: 682737922}
-  dialogue: dd
+  dialogue: Oh no! The cat forgot his catnip seed. I suppose I should grow it.
   objToSetActive: {fileID: 0}
   otherSprite: {fileID: 0}
   otherObj: {fileID: 0}
@@ -2785,6 +2817,12 @@ PrefabInstance:
     - target: {fileID: 7029904451097674614, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
       propertyPath: m_Name
       value: 3-PlaceSnail
+      objectReference: {fileID: 0}
+    - target: {fileID: 7029904451097674615, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
+      propertyPath: dialogue
+      value: "\xE7I hope he doesn\u2019t gunk up the hamster wheel, it keeps the
+        power on in this house! Ok my robot still works, everythings fine! Robot,
+        what\u2019s the last digit of pi?"
       objectReference: {fileID: 0}
     - target: {fileID: 7029904451097674615, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
       propertyPath: otherObj
@@ -3649,6 +3687,11 @@ PrefabInstance:
       value: 4-CollectShard
       objectReference: {fileID: 0}
     - target: {fileID: 7029904451097674615, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
+      propertyPath: dialogue
+      value: I should clean up these cerulean glass shards before I step on them.
+        Yeowch!
+      objectReference: {fileID: 0}
+    - target: {fileID: 7029904451097674615, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
       propertyPath: nextEvent
       value: 
       objectReference: {fileID: 1179866288}
@@ -4104,7 +4147,8 @@ MonoBehaviour:
   interactable: 0
   nextEvent: {fileID: 1179866288}
   textObject: {fileID: 0}
-  dialogue: 
+  dialogue: "I hope this blender blade isn\u2019t too sharp. I would hate to make
+    Geoffrey into vermillion shimmer water..."
   objToSetActive: {fileID: 0}
   otherSprite: {fileID: 0}
   otherObj: {fileID: 0}
@@ -4513,6 +4557,11 @@ PrefabInstance:
       value: 2-PlaceLogs
       objectReference: {fileID: 0}
     - target: {fileID: 7029904451097674615, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
+      propertyPath: dialogue
+      value: 'Wizard logs! Fresh from a wizard tree. Now I just need to find a fire
+        starter. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 7029904451097674615, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
       propertyPath: otherObj
       value: 
       objectReference: {fileID: 861476710}
@@ -4710,6 +4759,11 @@ PrefabInstance:
       value: 1-FindMouse
       objectReference: {fileID: 0}
     - target: {fileID: 7029904451097674615, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
+      propertyPath: dialogue
+      value: Aww, there ya are, you little rascal! Lil Geoffrey must be so hungry.
+        Time to feed Geoffrey!
+      objectReference: {fileID: 0}
+    - target: {fileID: 7029904451097674615, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
       propertyPath: nextEvent
       value: 
       objectReference: {fileID: 1605878349}
@@ -4731,6 +4785,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 551368381}
     m_Modifications:
+    - target: {fileID: 97252025916986112, guid: 60c73ad53d4a49c499e09db7a8a0de36, type: 3}
+      propertyPath: dialogue
+      value: 'Ooh, fish sticks! I like sucking on them frozen, like popsicles. But
+        squid friend likes them warm and toasty. '
+      objectReference: {fileID: 0}
     - target: {fileID: 97252025916986112, guid: 60c73ad53d4a49c499e09db7a8a0de36, type: 3}
       propertyPath: otherObj
       value: 
@@ -5961,7 +6020,9 @@ MonoBehaviour:
   interactable: 1
   nextEvent: {fileID: 290943715}
   textObject: {fileID: 682737922}
-  dialogue: pp
+  dialogue: "Milk! Good for your bones. Not sure where I kept my bones though...
+    Argh, it\u2019s expired. I\u2019ll just give it to the cat. He only laps up expired
+    2%. He\u2019s a very picky cat."
   objToSetActive: {fileID: 0}
   otherSprite: {fileID: 0}
   otherObj: {fileID: 0}
@@ -6448,7 +6509,8 @@ MonoBehaviour:
   interactable: 0
   nextEvent: {fileID: 603403471}
   textObject: {fileID: 682737922}
-  dialogue: j
+  dialogue: Oh no, Geoffrey is a ruby now! He always wanted to be cremated. I need
+    to grind him down to dust.
   objToSetActive: {fileID: 0}
   otherSprite: {fileID: 0}
   otherObj: {fileID: 0}
@@ -6855,6 +6917,11 @@ PrefabInstance:
     - target: {fileID: 7029904451097674614, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
       propertyPath: m_Name
       value: 1-FindKeys
+      objectReference: {fileID: 0}
+    - target: {fileID: 7029904451097674615, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
+      propertyPath: dialogue
+      value: "My keys! Sometimes they slip through the cracks of reality and end
+        up in Paris. Glad to see that they\u2019ve found their way back. "
       objectReference: {fileID: 0}
     - target: {fileID: 7029904451097674615, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
       propertyPath: nextEvent
@@ -7328,6 +7395,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1852803214}
     m_Modifications:
     - target: {fileID: 97252025916986112, guid: 60c73ad53d4a49c499e09db7a8a0de36, type: 3}
+      propertyPath: dialogue
+      value: "A verdant catnip leaf. I\u2019ll add it to my verdant catnip leaf collection!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 97252025916986112, guid: 60c73ad53d4a49c499e09db7a8a0de36, type: 3}
       propertyPath: nextEvent
       value: 
       objectReference: {fileID: 1179866288}
@@ -7545,7 +7616,8 @@ MonoBehaviour:
   interactable: 0
   nextEvent: {fileID: 2103635711}
   textObject: {fileID: 682737922}
-  dialogue: placeholder
+  dialogue: I provide fish sticks, squid friend provides ink cartridges, and mutually
+    beneficial trading under capitalism wins again!
   objToSetActive: {fileID: 0}
   otherSprite: {fileID: 0}
   otherObj: {fileID: 0}
@@ -7890,7 +7962,8 @@ MonoBehaviour:
   interactable: 0
   nextEvent: {fileID: 1179866288}
   textObject: {fileID: 682737922}
-  dialogue: placeholder
+  dialogue: "This one-click printer really is something. I wonder what it\u2019ll
+    print."
   objToSetActive: {fileID: 0}
   otherSprite: {fileID: 0}
   otherObj: {fileID: 0}
