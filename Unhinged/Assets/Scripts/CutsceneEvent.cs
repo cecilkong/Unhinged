@@ -11,6 +11,10 @@ public class CutsceneEvent : MonoBehaviour, IEventObject
     [SerializeField] TextMeshProUGUI textObject;
     [SerializeField] string dialogue;
     bool dialogueActive = false;
+    [Header("Optional, leave blank if n/a")]
+    [SerializeField] GameObject objToSetActive;
+    [SerializeField] Sprite otherSprite;
+    [SerializeField] GameObject otherObj;
 
     private void Start()
     {
@@ -25,11 +29,20 @@ public class CutsceneEvent : MonoBehaviour, IEventObject
         }
     }
 
+    private void SwitchExternalSprite()
+    {
+        otherObj.GetComponent<SpriteRenderer>().sprite = otherSprite;
+    }
+
     public void Interact()
     {
         interactable = false;
         textObject.transform.parent.gameObject.SetActive(true);
         textObject.text = dialogue;
+        if (objToSetActive)
+        {
+            objToSetActive.SetActive(true);
+        }
         SetInputFalse();
         StartCoroutine(shortTimer());
     }
@@ -40,8 +53,13 @@ public class CutsceneEvent : MonoBehaviour, IEventObject
         {
             nextEvent.GetComponent<IEventObject>().SetUp();
             GetComponent<Animator>().SetTrigger("Play");
+            if (otherObj != null) { SwitchExternalSprite(); }
             dialogueActive = false;
             textObject.transform.parent.gameObject.SetActive(false);
+            if (objToSetActive)
+            {
+                objToSetActive.SetActive(false);
+            }
         }
     }
 
