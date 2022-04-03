@@ -10,6 +10,11 @@ public class SpriteEvent : MonoBehaviour, IEventObject
     [SerializeField] Sprite alteredSprite;
     [SerializeField] TextMeshProUGUI textObject;
     [SerializeField] string dialogue;
+    [Header("Optional, leave blank if n/a")]
+    [SerializeField] GameObject objToSetActive;
+    [SerializeField] Sprite otherSprite;
+    [SerializeField] GameObject otherObj;
+
     bool dialogueActive = false;
     GameObject inputManager;
 
@@ -26,11 +31,20 @@ public class SpriteEvent : MonoBehaviour, IEventObject
         }
     }
 
+    private void SwitchExternalSprite()
+    {
+        otherObj.GetComponent<SpriteRenderer>().sprite = otherSprite;
+    }
+
     public void Interact()
     {
         interactable = false;
         textObject.transform.parent.gameObject.SetActive(true);
         textObject.text = dialogue;
+        if(objToSetActive)
+        {
+            objToSetActive.SetActive(true);
+        }
         SetInputFalse();
         StartCoroutine(shortTimer());
     }
@@ -46,10 +60,15 @@ public class SpriteEvent : MonoBehaviour, IEventObject
         if (dialogueActive)
         {
             GetComponent<SpriteRenderer>().sprite = alteredSprite;
+            if(otherObj != null) { SwitchExternalSprite(); }
             nextEvent.GetComponent<IEventObject>().SetUp();
             SetInputTrue();
             dialogueActive = false;
             textObject.transform.parent.gameObject.SetActive(false);
+            if (objToSetActive)
+            {
+                objToSetActive.SetActive(false);
+            }
         }
     }
 
