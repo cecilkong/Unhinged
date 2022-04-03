@@ -16,7 +16,7 @@ public class MouseInput : MonoBehaviour
             hoveringOver = hit.transform.gameObject;
             if (hit.collider.GetComponent<IEventObject>().GetInteractable())
             {
-                hit.transform.GetComponent<CreateOutline>().displayInteractable();
+                if (hoveringOver.GetComponent<CreateOutline>()) { hit.transform.GetComponent<CreateOutline>().displayInteractable(); }
                 if (Input.GetMouseButtonDown(0))
                 {
                     hit.collider.GetComponent<IEventObject>().Interact();
@@ -29,7 +29,7 @@ public class MouseInput : MonoBehaviour
         }
         else
         {
-            if(hoveringOver != null)
+            if(hoveringOver != null && hoveringOver.GetComponent<CreateOutline>())
             {
                 hoveringOver.GetComponent<CreateOutline>().setInactive();
             }
