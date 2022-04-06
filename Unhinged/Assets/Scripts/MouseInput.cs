@@ -12,7 +12,12 @@ public class MouseInput : MonoBehaviour
         if (!canInput) return;
         Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         RaycastHit2D hit = Physics2D.Raycast(mousePos, Vector2.zero);
+        if (hoveringOver != null && hoveringOver.GetComponent<CreateOutline>())
+        {
+            hoveringOver.GetComponent<CreateOutline>().setInactive();
+        }
         if (hit.collider != null){
+            
             hoveringOver = hit.transform.gameObject;
             if (hit.collider.GetComponent<IEventObject>().GetInteractable())
             {
@@ -25,13 +30,6 @@ public class MouseInput : MonoBehaviour
             else
             {
                 if(hoveringOver.GetComponent<CreateOutline>()) hit.transform.GetComponent<CreateOutline>().displayuninteractable();
-            }
-        }
-        else
-        {
-            if(hoveringOver != null && hoveringOver.GetComponent<CreateOutline>())
-            {
-                hoveringOver.GetComponent<CreateOutline>().setInactive();
             }
         }
     }
