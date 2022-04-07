@@ -4,51 +4,28 @@ using UnityEngine;
 
 public class CreateOutline : MonoBehaviour
 {
-    [SerializeField] Color interactableColor;
-    [SerializeField] Color uninteractableColor;
-    [SerializeField] Sprite square;
-    [SerializeField] float maskScaleMultiplier = 1.1f;
-    GameObject mask;
-    GameObject outline;
+    [SerializeField] Material interactableMat;
+    [SerializeField] Material uninteractableMat;
+    [SerializeField] Material defaultMat;
+    SpriteRenderer spriteRenderer;
 
     private void Start()
     {
-        Sprite objSprite = GetComponent<SpriteRenderer>().sprite;
-        mask = new GameObject();
-        mask.AddComponent<SpriteMask>().sprite = objSprite;
-        mask.transform.SetParent(transform);
-        mask.transform.localPosition = Vector3.zero;
-        mask.transform.localScale *= maskScaleMultiplier;
-        mask.SetActive(false);
-
-
-        outline = new GameObject();
-        outline.transform.SetParent(transform);
-        outline.AddComponent<SpriteRenderer>().sprite = square;
-        outline.GetComponent<SpriteRenderer>().maskInteraction = SpriteMaskInteraction.VisibleInsideMask;
-        outline.transform.localPosition = Vector3.zero;
-        outline.GetComponent<SpriteRenderer>().sortingOrder = GetComponent<SpriteRenderer>().sortingOrder - 1;
-        outline.transform.localScale *= 3;
-        outline.SetActive(false);
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     public void setInactive()
     {
-        mask.SetActive(false);
-        outline.SetActive(false);
+        spriteRenderer.material = defaultMat;
     }
 
     public void displayInteractable()
     {
-        mask.SetActive(true);
-        outline.SetActive(true);
-        outline.GetComponent<SpriteRenderer>().color = interactableColor;
+        spriteRenderer.material = interactableMat;
     }
 
     public void displayuninteractable()
     {
-        mask.SetActive(true);
-        outline.SetActive(true);
-        outline.GetComponent<SpriteRenderer>().color = uninteractableColor;
+        spriteRenderer.material = uninteractableMat;
     }
 }

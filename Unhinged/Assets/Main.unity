@@ -302,6 +302,18 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 9100000, guid: b04c8e662d30e4ff697d4dcd2e2e86c0, type: 2}
     - target: {fileID: 97252025916986125, guid: 60c73ad53d4a49c499e09db7a8a0de36, type: 3}
+      propertyPath: defaultMat
+      value: 
+      objectReference: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 97252025916986125, guid: 60c73ad53d4a49c499e09db7a8a0de36, type: 3}
+      propertyPath: interactableMat
+      value: 
+      objectReference: {fileID: 2100000, guid: 5adb5ec1067025b448dcdc84fe955258, type: 2}
+    - target: {fileID: 97252025916986125, guid: 60c73ad53d4a49c499e09db7a8a0de36, type: 3}
+      propertyPath: uninteractableMat
+      value: 
+      objectReference: {fileID: 2100000, guid: a3bf8c28f98f1b8408baa781d6afdbe8, type: 2}
+    - target: {fileID: 97252025916986125, guid: 60c73ad53d4a49c499e09db7a8a0de36, type: 3}
       propertyPath: maskScaleMultiplier
       value: 1.1
       objectReference: {fileID: 0}
@@ -582,6 +594,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1015733071}
     m_Modifications:
+    - target: {fileID: 7029904451097674603, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
+      propertyPath: defaultMat
+      value: 
+      objectReference: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 7029904451097674603, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
+      propertyPath: interactableMat
+      value: 
+      objectReference: {fileID: 2100000, guid: 5adb5ec1067025b448dcdc84fe955258, type: 2}
+    - target: {fileID: 7029904451097674603, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
+      propertyPath: uninteractableMat
+      value: 
+      objectReference: {fileID: 2100000, guid: a3bf8c28f98f1b8408baa781d6afdbe8, type: 2}
     - target: {fileID: 7029904451097674603, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
       propertyPath: maskScaleMultiplier
       value: 1.1
@@ -904,6 +928,18 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 9100000, guid: 907e7346882be3842959a949971c4c17, type: 2}
     - target: {fileID: 97252025916986125, guid: 60c73ad53d4a49c499e09db7a8a0de36, type: 3}
+      propertyPath: defaultMat
+      value: 
+      objectReference: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 97252025916986125, guid: 60c73ad53d4a49c499e09db7a8a0de36, type: 3}
+      propertyPath: interactableMat
+      value: 
+      objectReference: {fileID: 2100000, guid: 5adb5ec1067025b448dcdc84fe955258, type: 2}
+    - target: {fileID: 97252025916986125, guid: 60c73ad53d4a49c499e09db7a8a0de36, type: 3}
+      propertyPath: uninteractableMat
+      value: 
+      objectReference: {fileID: 2100000, guid: a3bf8c28f98f1b8408baa781d6afdbe8, type: 2}
+    - target: {fileID: 97252025916986125, guid: 60c73ad53d4a49c499e09db7a8a0de36, type: 3}
       propertyPath: maskScaleMultiplier
       value: 1.1
       objectReference: {fileID: 0}
@@ -952,6 +988,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1015733071}
     m_Modifications:
+    - target: {fileID: 7029904451097674603, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
+      propertyPath: defaultMat
+      value: 
+      objectReference: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 7029904451097674603, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
+      propertyPath: interactableMat
+      value: 
+      objectReference: {fileID: 2100000, guid: 5adb5ec1067025b448dcdc84fe955258, type: 2}
+    - target: {fileID: 7029904451097674603, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
+      propertyPath: uninteractableMat
+      value: 
+      objectReference: {fileID: 2100000, guid: a3bf8c28f98f1b8408baa781d6afdbe8, type: 2}
     - target: {fileID: 7029904451097674603, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
       propertyPath: maskScaleMultiplier
       value: 1.1
@@ -1976,6 +2024,18 @@ PrefabInstance:
     m_TransformParent: {fileID: 1535775390}
     m_Modifications:
     - target: {fileID: 7029904451097674603, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
+      propertyPath: defaultMat
+      value: 
+      objectReference: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 7029904451097674603, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
+      propertyPath: interactableMat
+      value: 
+      objectReference: {fileID: 2100000, guid: 5adb5ec1067025b448dcdc84fe955258, type: 2}
+    - target: {fileID: 7029904451097674603, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
+      propertyPath: uninteractableMat
+      value: 
+      objectReference: {fileID: 2100000, guid: a3bf8c28f98f1b8408baa781d6afdbe8, type: 2}
+    - target: {fileID: 7029904451097674603, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
       propertyPath: maskScaleMultiplier
       value: 1.1
       objectReference: {fileID: 0}
@@ -2110,6 +2170,18 @@ PrefabInstance:
     m_TransformParent: {fileID: 1852803214}
     m_Modifications:
     - target: {fileID: 7029904451097674603, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
+      propertyPath: defaultMat
+      value: 
+      objectReference: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 7029904451097674603, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
+      propertyPath: interactableMat
+      value: 
+      objectReference: {fileID: 2100000, guid: 5adb5ec1067025b448dcdc84fe955258, type: 2}
+    - target: {fileID: 7029904451097674603, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
+      propertyPath: uninteractableMat
+      value: 
+      objectReference: {fileID: 2100000, guid: a3bf8c28f98f1b8408baa781d6afdbe8, type: 2}
+    - target: {fileID: 7029904451097674603, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
       propertyPath: maskScaleMultiplier
       value: 1.1
       objectReference: {fileID: 0}
@@ -2117,6 +2189,14 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 9210c6df1aea94e5a99f999e32b7f258, type: 3}
+    - target: {fileID: 7029904451097674612, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
+      propertyPath: m_SortingOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7029904451097674612, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
     - target: {fileID: 7029904451097674613, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -2528,6 +2608,7 @@ GameObject:
   - component: {fileID: 335234547}
   - component: {fileID: 335234546}
   - component: {fileID: 335234544}
+  - component: {fileID: 335234548}
   m_Layer: 0
   m_Name: 3-GetSeed
   m_TagString: Untagged
@@ -2595,7 +2676,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 5adb5ec1067025b448dcdc84fe955258, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2665,6 +2746,21 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &335234548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 335234542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 715a64d19108a2140b42f6bb2d543e0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactableMat: {fileID: 2100000, guid: 5adb5ec1067025b448dcdc84fe955258, type: 2}
+  uninteractableMat: {fileID: 2100000, guid: a3bf8c28f98f1b8408baa781d6afdbe8, type: 2}
+  defaultMat: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
 --- !u!1 &370383830
 GameObject:
   m_ObjectHideFlags: 0
@@ -2681,7 +2777,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &370383831
 Transform:
   m_ObjectHideFlags: 0
@@ -2754,6 +2850,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1015733071}
     m_Modifications:
+    - target: {fileID: 7029904451097674603, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
+      propertyPath: defaultMat
+      value: 
+      objectReference: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 7029904451097674603, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
+      propertyPath: interactableMat
+      value: 
+      objectReference: {fileID: 2100000, guid: 5adb5ec1067025b448dcdc84fe955258, type: 2}
+    - target: {fileID: 7029904451097674603, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
+      propertyPath: uninteractableMat
+      value: 
+      objectReference: {fileID: 2100000, guid: a3bf8c28f98f1b8408baa781d6afdbe8, type: 2}
     - target: {fileID: 7029904451097674603, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
       propertyPath: maskScaleMultiplier
       value: 1.1
@@ -3611,6 +3719,18 @@ PrefabInstance:
     m_TransformParent: {fileID: 1535775390}
     m_Modifications:
     - target: {fileID: 7029904451097674603, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
+      propertyPath: defaultMat
+      value: 
+      objectReference: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 7029904451097674603, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
+      propertyPath: interactableMat
+      value: 
+      objectReference: {fileID: 2100000, guid: 5adb5ec1067025b448dcdc84fe955258, type: 2}
+    - target: {fileID: 7029904451097674603, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
+      propertyPath: uninteractableMat
+      value: 
+      objectReference: {fileID: 2100000, guid: a3bf8c28f98f1b8408baa781d6afdbe8, type: 2}
+    - target: {fileID: 7029904451097674603, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
       propertyPath: maskScaleMultiplier
       value: 1.1
       objectReference: {fileID: 0}
@@ -3840,6 +3960,18 @@ PrefabInstance:
     m_TransformParent: {fileID: 551368381}
     m_Modifications:
     - target: {fileID: 7029904451097674603, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
+      propertyPath: defaultMat
+      value: 
+      objectReference: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 7029904451097674603, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
+      propertyPath: interactableMat
+      value: 
+      objectReference: {fileID: 2100000, guid: 5adb5ec1067025b448dcdc84fe955258, type: 2}
+    - target: {fileID: 7029904451097674603, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
+      propertyPath: uninteractableMat
+      value: 
+      objectReference: {fileID: 2100000, guid: a3bf8c28f98f1b8408baa781d6afdbe8, type: 2}
+    - target: {fileID: 7029904451097674603, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
       propertyPath: maskScaleMultiplier
       value: 1.1
       objectReference: {fileID: 0}
@@ -4052,6 +4184,18 @@ PrefabInstance:
     m_TransformParent: {fileID: 2093873877}
     m_Modifications:
     - target: {fileID: 7029904451097674603, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
+      propertyPath: defaultMat
+      value: 
+      objectReference: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 7029904451097674603, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
+      propertyPath: interactableMat
+      value: 
+      objectReference: {fileID: 2100000, guid: 5adb5ec1067025b448dcdc84fe955258, type: 2}
+    - target: {fileID: 7029904451097674603, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
+      propertyPath: uninteractableMat
+      value: 
+      objectReference: {fileID: 2100000, guid: a3bf8c28f98f1b8408baa781d6afdbe8, type: 2}
+    - target: {fileID: 7029904451097674603, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
       propertyPath: maskScaleMultiplier
       value: 1.1
       objectReference: {fileID: 0}
@@ -4154,7 +4298,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactable: 0
   nextEvent: {fileID: 1179866288}
-  textObject: {fileID: 0}
+  textObject: {fileID: 682737922}
   dialogue: "I hope this blender blade isn\u2019t too sharp. I would hate to make
     Geoffrey into vermillion shimmer water..."
   objToSetActive: {fileID: 0}
@@ -4486,6 +4630,18 @@ PrefabInstance:
       value: OpenDoor
       objectReference: {fileID: 0}
     - target: {fileID: 97252025916986125, guid: 60c73ad53d4a49c499e09db7a8a0de36, type: 3}
+      propertyPath: defaultMat
+      value: 
+      objectReference: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 97252025916986125, guid: 60c73ad53d4a49c499e09db7a8a0de36, type: 3}
+      propertyPath: interactableMat
+      value: 
+      objectReference: {fileID: 2100000, guid: 5adb5ec1067025b448dcdc84fe955258, type: 2}
+    - target: {fileID: 97252025916986125, guid: 60c73ad53d4a49c499e09db7a8a0de36, type: 3}
+      propertyPath: uninteractableMat
+      value: 
+      objectReference: {fileID: 2100000, guid: a3bf8c28f98f1b8408baa781d6afdbe8, type: 2}
+    - target: {fileID: 97252025916986125, guid: 60c73ad53d4a49c499e09db7a8a0de36, type: 3}
       propertyPath: maskScaleMultiplier
       value: 1.1
       objectReference: {fileID: 0}
@@ -4508,6 +4664,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 551368381}
     m_Modifications:
+    - target: {fileID: 7029904451097674603, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
+      propertyPath: defaultMat
+      value: 
+      objectReference: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 7029904451097674603, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
+      propertyPath: interactableMat
+      value: 
+      objectReference: {fileID: 2100000, guid: 5adb5ec1067025b448dcdc84fe955258, type: 2}
+    - target: {fileID: 7029904451097674603, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
+      propertyPath: uninteractableMat
+      value: 
+      objectReference: {fileID: 2100000, guid: a3bf8c28f98f1b8408baa781d6afdbe8, type: 2}
     - target: {fileID: 7029904451097674603, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
       propertyPath: maskScaleMultiplier
       value: 1.1
@@ -4707,6 +4875,18 @@ PrefabInstance:
     m_TransformParent: {fileID: 2093873877}
     m_Modifications:
     - target: {fileID: 7029904451097674603, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
+      propertyPath: defaultMat
+      value: 
+      objectReference: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 7029904451097674603, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
+      propertyPath: interactableMat
+      value: 
+      objectReference: {fileID: 2100000, guid: 5adb5ec1067025b448dcdc84fe955258, type: 2}
+    - target: {fileID: 7029904451097674603, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
+      propertyPath: uninteractableMat
+      value: 
+      objectReference: {fileID: 2100000, guid: a3bf8c28f98f1b8408baa781d6afdbe8, type: 2}
+    - target: {fileID: 7029904451097674603, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
       propertyPath: maskScaleMultiplier
       value: 1.1
       objectReference: {fileID: 0}
@@ -4890,6 +5070,18 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: ce731b50916e74e5b89343a8b91f930f, type: 2}
+    - target: {fileID: 97252025916986125, guid: 60c73ad53d4a49c499e09db7a8a0de36, type: 3}
+      propertyPath: defaultMat
+      value: 
+      objectReference: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 97252025916986125, guid: 60c73ad53d4a49c499e09db7a8a0de36, type: 3}
+      propertyPath: interactableMat
+      value: 
+      objectReference: {fileID: 2100000, guid: 5adb5ec1067025b448dcdc84fe955258, type: 2}
+    - target: {fileID: 97252025916986125, guid: 60c73ad53d4a49c499e09db7a8a0de36, type: 3}
+      propertyPath: uninteractableMat
+      value: 
+      objectReference: {fileID: 2100000, guid: a3bf8c28f98f1b8408baa781d6afdbe8, type: 2}
     - target: {fileID: 97252025916986125, guid: 60c73ad53d4a49c499e09db7a8a0de36, type: 3}
       propertyPath: maskScaleMultiplier
       value: 1.1
@@ -5532,6 +5724,18 @@ PrefabInstance:
     m_TransformParent: {fileID: 1367583117}
     m_Modifications:
     - target: {fileID: 7029904451097674603, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
+      propertyPath: defaultMat
+      value: 
+      objectReference: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 7029904451097674603, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
+      propertyPath: interactableMat
+      value: 
+      objectReference: {fileID: 2100000, guid: 5adb5ec1067025b448dcdc84fe955258, type: 2}
+    - target: {fileID: 7029904451097674603, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
+      propertyPath: uninteractableMat
+      value: 
+      objectReference: {fileID: 2100000, guid: a3bf8c28f98f1b8408baa781d6afdbe8, type: 2}
+    - target: {fileID: 7029904451097674603, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
       propertyPath: maskScaleMultiplier
       value: 1.1
       objectReference: {fileID: 0}
@@ -5954,6 +6158,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1852803214}
     m_Modifications:
+    - target: {fileID: 7029904451097674603, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
+      propertyPath: defaultMat
+      value: 
+      objectReference: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 7029904451097674603, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
+      propertyPath: interactableMat
+      value: 
+      objectReference: {fileID: 2100000, guid: 5adb5ec1067025b448dcdc84fe955258, type: 2}
+    - target: {fileID: 7029904451097674603, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
+      propertyPath: uninteractableMat
+      value: 
+      objectReference: {fileID: 2100000, guid: a3bf8c28f98f1b8408baa781d6afdbe8, type: 2}
     - target: {fileID: 7029904451097674603, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
       propertyPath: maskScaleMultiplier
       value: 1.1
@@ -6436,6 +6652,18 @@ PrefabInstance:
     m_TransformParent: {fileID: 2093873877}
     m_Modifications:
     - target: {fileID: 7029904451097674603, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
+      propertyPath: defaultMat
+      value: 
+      objectReference: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 7029904451097674603, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
+      propertyPath: interactableMat
+      value: 
+      objectReference: {fileID: 2100000, guid: 5adb5ec1067025b448dcdc84fe955258, type: 2}
+    - target: {fileID: 7029904451097674603, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
+      propertyPath: uninteractableMat
+      value: 
+      objectReference: {fileID: 2100000, guid: a3bf8c28f98f1b8408baa781d6afdbe8, type: 2}
+    - target: {fileID: 7029904451097674603, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
       propertyPath: maskScaleMultiplier
       value: 1.1
       objectReference: {fileID: 0}
@@ -6849,6 +7077,18 @@ PrefabInstance:
       value: 3-UseSheep
       objectReference: {fileID: 0}
     - target: {fileID: 97252025916986125, guid: 60c73ad53d4a49c499e09db7a8a0de36, type: 3}
+      propertyPath: defaultMat
+      value: 
+      objectReference: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 97252025916986125, guid: 60c73ad53d4a49c499e09db7a8a0de36, type: 3}
+      propertyPath: interactableMat
+      value: 
+      objectReference: {fileID: 2100000, guid: 5adb5ec1067025b448dcdc84fe955258, type: 2}
+    - target: {fileID: 97252025916986125, guid: 60c73ad53d4a49c499e09db7a8a0de36, type: 3}
+      propertyPath: uninteractableMat
+      value: 
+      objectReference: {fileID: 2100000, guid: a3bf8c28f98f1b8408baa781d6afdbe8, type: 2}
+    - target: {fileID: 97252025916986125, guid: 60c73ad53d4a49c499e09db7a8a0de36, type: 3}
       propertyPath: maskScaleMultiplier
       value: 1.1
       objectReference: {fileID: 0}
@@ -6896,6 +7136,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1535775390}
     m_Modifications:
+    - target: {fileID: 7029904451097674603, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
+      propertyPath: defaultMat
+      value: 
+      objectReference: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 7029904451097674603, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
+      propertyPath: interactableMat
+      value: 
+      objectReference: {fileID: 2100000, guid: 5adb5ec1067025b448dcdc84fe955258, type: 2}
+    - target: {fileID: 7029904451097674603, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
+      propertyPath: uninteractableMat
+      value: 
+      objectReference: {fileID: 2100000, guid: a3bf8c28f98f1b8408baa781d6afdbe8, type: 2}
     - target: {fileID: 7029904451097674603, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
       propertyPath: maskScaleMultiplier
       value: 1.1
@@ -7640,6 +7892,18 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 9100000, guid: b98b4b7f4374c6e4eaf1eea8eade86c7, type: 2}
     - target: {fileID: 97252025916986125, guid: 60c73ad53d4a49c499e09db7a8a0de36, type: 3}
+      propertyPath: defaultMat
+      value: 
+      objectReference: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 97252025916986125, guid: 60c73ad53d4a49c499e09db7a8a0de36, type: 3}
+      propertyPath: interactableMat
+      value: 
+      objectReference: {fileID: 2100000, guid: 5adb5ec1067025b448dcdc84fe955258, type: 2}
+    - target: {fileID: 97252025916986125, guid: 60c73ad53d4a49c499e09db7a8a0de36, type: 3}
+      propertyPath: uninteractableMat
+      value: 
+      objectReference: {fileID: 2100000, guid: a3bf8c28f98f1b8408baa781d6afdbe8, type: 2}
+    - target: {fileID: 97252025916986125, guid: 60c73ad53d4a49c499e09db7a8a0de36, type: 3}
       propertyPath: maskScaleMultiplier
       value: 1.1
       objectReference: {fileID: 0}
@@ -7688,6 +7952,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 551368381}
     m_Modifications:
+    - target: {fileID: 7029904451097674603, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
+      propertyPath: defaultMat
+      value: 
+      objectReference: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 7029904451097674603, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
+      propertyPath: interactableMat
+      value: 
+      objectReference: {fileID: 2100000, guid: 5adb5ec1067025b448dcdc84fe955258, type: 2}
+    - target: {fileID: 7029904451097674603, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
+      propertyPath: uninteractableMat
+      value: 
+      objectReference: {fileID: 2100000, guid: a3bf8c28f98f1b8408baa781d6afdbe8, type: 2}
     - target: {fileID: 7029904451097674603, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
       propertyPath: maskScaleMultiplier
       value: 1.1
@@ -8035,6 +8311,18 @@ PrefabInstance:
     m_TransformParent: {fileID: 551368381}
     m_Modifications:
     - target: {fileID: 7029904451097674603, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
+      propertyPath: defaultMat
+      value: 
+      objectReference: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 7029904451097674603, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
+      propertyPath: interactableMat
+      value: 
+      objectReference: {fileID: 2100000, guid: 5adb5ec1067025b448dcdc84fe955258, type: 2}
+    - target: {fileID: 7029904451097674603, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
+      propertyPath: uninteractableMat
+      value: 
+      objectReference: {fileID: 2100000, guid: a3bf8c28f98f1b8408baa781d6afdbe8, type: 2}
+    - target: {fileID: 7029904451097674603, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
       propertyPath: maskScaleMultiplier
       value: 1.1
       objectReference: {fileID: 0}
@@ -8061,7 +8349,7 @@ PrefabInstance:
     - target: {fileID: 7029904451097674612, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 5adb5ec1067025b448dcdc84fe955258, type: 2}
+      objectReference: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
     - target: {fileID: 7029904451097674613, guid: dfd3bc4762e5c7641aa52dadd1e1e783, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -8160,6 +8448,32 @@ MonoBehaviour:
   objToSetActive: {fileID: 0}
   otherSprite: {fileID: 0}
   otherObj: {fileID: 0}
+--- !u!61 &2103635716
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2103635711}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.000000059604645, y: 0.24139702}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.47, y: 2.19}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.0947213, y: 1.6589262}
+  m_EdgeRadius: 0
 --- !u!95 &2103635717
 Animator:
   serializedVersion: 3
