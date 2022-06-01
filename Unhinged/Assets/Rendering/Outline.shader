@@ -60,6 +60,7 @@ Shader "Custom/Outline"
                 coordCalc.y = (i.texcoord.y + _Outline/2)/(1+_Outline);
                 col.rgb = normalCol.a < .2 && tex2D(_MainTex, coordCalc).a > .2 ? _OutlineColor.rgb : normalCol.rgb;
                 col.a = tex2D(_MainTex, coordCalc).a > .2 ? 1 : 0;
+                if(tex2D(_MainTex, coordCalc).a < .2) {col.rgb = 0;}
                 return col;
             }
             ENDCG
